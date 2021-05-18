@@ -1,0 +1,1 @@
+Exercise rock-paper-scissors for the Odin projectS
