@@ -41,9 +41,9 @@ function game(player, machine){
             counterPlayer += 1
         }
     }
-    if (counterComputer === 2) {
+    if (counterComputer === 5) {
         return 'YOU ARE A WINNER COMPUTER'
-    } else {
+    } else if (counterPlayer === 5) {
         return 'YOU ARE A WINNER PLAYER';
     }
 }
