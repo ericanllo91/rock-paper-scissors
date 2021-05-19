@@ -65,11 +65,11 @@ function game(e){
     if (counterComputer === 5){
         winner.textContent = 'COMPUTER'
         toWin.appendChild(winner)
-        alert('STOP')
+        alert('STOP COMPUTER WON')
     } else if (counterPlayer ===5){
         winner.textContent = 'PLAYER'
         toWin.appendChild(winner)
-        alert('STOP')
+        alert('STOP PLAYER WON')
     }
 
 
