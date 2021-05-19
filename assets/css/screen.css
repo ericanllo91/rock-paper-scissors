@@ -1,8 +1,43 @@
 body {
-    background-color: hotpink;
+    background-color: mistyrose;
+    margin: 100px;
+    text-align: center;
 }
 
 h1 {
     color: black;
     font-size: 40px;
 }
+
+#computerSelect {
+    border: blue 2px solid;
+    width: 100px;
+    height: 100px;
+
+}
+
+#computerScore {
+    border: blue 2px solid;
+    width: 100px;
+    height: 100px;
+}
+
+#playerScore {
+    border: blue 2px solid;
+    width: 100px;
+    height: 100px;
+
+}
+
+button {
+    width: 100px;
+    height: 100px;
+}
+
+.flex, .flex2{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+
