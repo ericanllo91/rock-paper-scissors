@@ -1,12 +1,18 @@
 body {
-    background-color: mistyrose;
+    background-color: aliceblue;
     margin: 100px;
     text-align: center;
 }
 
 h1 {
-    color: black;
+    color: teal;
     font-size: 40px;
+}
+
+h2 {
+    color: deeppink;
+    font-size: 30px;
+    margin: 20px;
 }
 
 #computerSelect {
@@ -18,20 +24,24 @@ h1 {
 
 #computerScore {
     border: blue 2px solid;
-    width: 100px;
+    width: 150px;
     height: 100px;
+    font-size: 20px;
 }
 
 #playerScore {
     border: blue 2px solid;
-    width: 100px;
+    width: 150px;
     height: 100px;
+    font-size: 20px;
 
 }
 
 button {
     width: 100px;
     height: 100px;
+    background: whitesmoke;
+    background-image: url(../images/fb61414e-e006-4270-a68a-7a083663b905.jpg);
 }
 
 .flex, .flex2{
@@ -40,4 +50,11 @@ button {
     justify-content: center;
 }
 
+.icons {
+    stroke: hotpink;
+    border: red 2px solid;
+}
 
+.icons > * {
+    //stroke: hotpink;
+}
