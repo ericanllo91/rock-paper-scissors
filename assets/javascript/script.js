@@ -84,13 +84,17 @@ function game(e){
 
     // ---> When you reach 5 STOP!
     if (counterComputer === 5){
-        winner.textContent = 'COMPUTER'
+        winner.textContent = 'THE WINNER IS COMPUTER'
+        winner.style.fontSize = '100px'
         toWin.appendChild(winner)
         alert('STOP COMPUTER WON')
+
     } else if (counterPlayer ===5){
-        winner.textContent = 'PLAYER'
+        winner.textContent = 'YOU WON'
+        winner.style.fontSize = '100px'
         toWin.appendChild(winner)
-        alert('STOP PLAYER WON')
+        alert('STOP YOU WON')
+
     }
 
 
